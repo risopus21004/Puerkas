@@ -1,0 +1,126 @@
+body{
+    font-family: 'sunset';
+    background-color: rgba(0, 0, 0, 0);
+    display:flex;
+    content: center;
+
+}
+.principal{
+    background-image: linear-gradient(to top, #292929 0%, #363636 100%);
+    width: 100%;
+    max-width: 1200px;
+    margin:auto;
+}
+h1{
+    font-size: 40px;
+}
+h2{
+    font-size: 30px;
+    color: rgb(255, 196,0)
+}
+h3{
+    color:rgb(255, 196,0);
+}
+.menu{
+    color: rgba(255, 255, 255, 0);
+    font-size: 18px;
+    padding: 0px;
+    background-color: rgba(29, 29, 29, 0.856)
+}
+.menu li{
+    list-style:none;
+    display:inline-block;
+    font:bold;
+    text-align: center;
+    border: 0px solid rgba(255, 255, 255, 0);
+    border-radius: 0px;
+    padding: 10px;  
+}
+li:hover{
+    background: black;
+    color:white;
+}
+.seccion{
+    margin:20px;
+    width:60%;
+    float:left;
+}
+.imagen1{
+    display: flex
+    ;height: 400px;
+    width: 1000px;
+    border-radius: 10px;
+}
+.imagen2{
+    height: 384px;
+    width: 384px;
+    border-radius: 10px;
+    
+}
+.articulos{
+    display:block;
+    margin:20px;
+    border: 0px solid white;
+    padding:15px;
+    color:white;
+}
+.articulos footer{
+    text-align: right;
+}
+.columna{
+    border: 0px solid white;
+    margin:41px;
+    margin-left: 0px;
+    margin-right: 20px;
+    font-size: 20px;
+    float:left;
+    width: 33%;
+
+}
+.columna blockquote{
+    border: 0px solid white;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 275px;
+    font-size: 16px;
+}
+.fotografia1{
+    height: 200px;
+    width:280px;
+    border-radius: 10px;
+}
+.fotografia2{
+    height: 400px;
+    border-radius: 10px;
+}
+.imagenenlaces{
+    border-radius:10px;
+    height: 70px;
+    width: 200px;
+}
+.pie{
+    background-color: black;
+    color:white;
+    font-size: 12px;
+    border: 2px solid rgb(70, 70, 70);
+    text-align: center;
+    padding: 10px;
+    clear:both;
+}
+.cintillo{
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+.cintillo h1{
+    font-size: 60px;
+    text-align: center;
+    color: white;
+}
+table{
+    background-color: #2b2b2b;
+    border: rgb(70, 70, 70) 1px solid;
+}
+.table tr, td{
+    border: white 1px solid;
+}
